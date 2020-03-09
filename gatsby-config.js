@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Learn Framer X',
+    title: 'Design+Code 3',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }
