@@ -18,7 +18,6 @@ a {
   background-size: cover;
   background-position: center;
   position: relative;
-
 }
 
 .HeroGroup {
@@ -97,4 +96,19 @@ a {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.Hero.Logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 40px;
+  margin: 100px 0;
+  justify-items: center;
+
+}
+
+@media (max-width: 640px) {
+  .Hero.Logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
