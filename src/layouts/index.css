@@ -63,7 +63,6 @@ a {
 .Hero a:hover {
   background: white;
   color: black;
-
 }
 
 @media (max-width: 640px) {
@@ -81,15 +80,14 @@ a {
 }
 
 @keyframes HeroAnimation {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(opx);
-    }
-
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 .Hero svg {
@@ -97,14 +95,13 @@ a {
   bottom: 0;
   left: 0;
 }
-
+ 
 .Hero .Logos {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 40px;
   margin: 100px 0;
   justify-items: center;
-
 }
 
 @media (max-width: 640px) {
@@ -115,11 +112,12 @@ a {
 
 .Cards h2 {
   margin: 50px 20px;
-  font-size:60px;
+  font-size: 60px;
   text-align: center;
   font-weight: 700;
   background: linear-gradient(104deg, #050A27 0%, #4A548C 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -128,7 +126,7 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
-justify-items: center;  
+  justify-items: center;
 }
 
 @media (max-width: 1060px) {

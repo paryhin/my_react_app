@@ -11,7 +11,7 @@ class Header extends React.Component {
     }
   }
 
-  componentDidMount () {
+  componentDidMount() {
     window.addEventListener('scroll', this.handleScroll)
   }
 
@@ -20,8 +20,8 @@ class Header extends React.Component {
 
     if (scrollTop > 50) {
       this.setState({ hasScrolled: true })
-    } else{
-      this.setState({ hasScrolled: false})
+    } else {
+      this.setState({ hasScrolled: false })
     }
   }
 
@@ -37,8 +37,7 @@ class Header extends React.Component {
         </div>
       </div>
     )
-   }
-} 
+  }
+}
 
 export default Header
- 
