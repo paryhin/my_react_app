@@ -48,8 +48,9 @@ const IndexPage = () => (
           title="ARKit 2"
           text="10 sections"
           image={require('../images/wallpaper4.jpg')} />
-      </div>
+      </div> 
     </div>
+    
   </div>
 )
 
